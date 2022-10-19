@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Twode.no";
+  src: url("fonts/twode-no.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Chinese Rocks";
+  src: url("fonts/chinese-rocks.otf") format("opentype");
+}
+
+:root {
+  --font: "Chinese Rocks", console;
+}
+
+body {
+  background: #223;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+}
